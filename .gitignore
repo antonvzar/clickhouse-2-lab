@@ -1,0 +1,15 @@
+# данные и артефакты
+data/
+*.parquet
+*.csv
+*.log
+
+# python
+venv/
+__pycache__/
+*.pyc
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store

@@ -1,0 +1,309 @@
+Starting ClickHouse load test
+
+Host: localhost:9000, database: ecom
+Number of iterations per query: 30
+
+
+=== Query raw_top_categories ===
+  iteration  1/30: 0.0864 s
+  iteration  2/30: 0.0797 s
+  iteration  3/30: 0.0690 s
+  iteration  4/30: 0.0779 s
+  iteration  5/30: 0.0760 s
+  iteration  6/30: 0.0840 s
+  iteration  7/30: 0.0816 s
+  iteration  8/30: 0.0649 s
+  iteration  9/30: 0.0702 s
+  iteration 10/30: 0.0782 s
+  iteration 11/30: 0.0795 s
+  iteration 12/30: 0.0721 s
+  iteration 13/30: 0.0755 s
+  iteration 14/30: 0.0636 s
+  iteration 15/30: 0.0806 s
+  iteration 16/30: 0.0792 s
+  iteration 17/30: 0.0753 s
+  iteration 18/30: 0.0837 s
+  iteration 19/30: 0.0606 s
+  iteration 20/30: 0.0719 s
+  iteration 21/30: 0.0670 s
+  iteration 22/30: 0.0825 s
+  iteration 23/30: 0.0674 s
+  iteration 24/30: 0.0677 s
+  iteration 25/30: 0.0722 s
+  iteration 26/30: 0.0717 s
+  iteration 27/30: 0.0859 s
+  iteration 28/30: 0.0733 s
+  iteration 29/30: 0.0712 s
+  iteration 30/30: 0.0712 s
+
+Results for raw_top_categories:
+  min   = 0.0606 s
+  mean  = 0.0747 s
+  max   = 0.0864 s
+----------------------------------------
+
+=== Query mv_top_categories ===
+  iteration  1/30: 0.0468 s
+  iteration  2/30: 0.0433 s
+  iteration  3/30: 0.0436 s
+  iteration  4/30: 0.0437 s
+  iteration  5/30: 0.0442 s
+  iteration  6/30: 0.0431 s
+  iteration  7/30: 0.0437 s
+  iteration  8/30: 0.0439 s
+  iteration  9/30: 0.0438 s
+  iteration 10/30: 0.0452 s
+  iteration 11/30: 0.0461 s
+  iteration 12/30: 0.0480 s
+  iteration 13/30: 0.0442 s
+  iteration 14/30: 0.0467 s
+  iteration 15/30: 0.0513 s
+  iteration 16/30: 0.0465 s
+  iteration 17/30: 0.0451 s
+  iteration 18/30: 0.0433 s
+  iteration 19/30: 0.0437 s
+  iteration 20/30: 0.0440 s
+  iteration 21/30: 0.0479 s
+  iteration 22/30: 0.0441 s
+  iteration 23/30: 0.0436 s
+  iteration 24/30: 0.0437 s
+  iteration 25/30: 0.0434 s
+  iteration 26/30: 0.0438 s
+  iteration 27/30: 0.0431 s
+  iteration 28/30: 0.0439 s
+  iteration 29/30: 0.0441 s
+  iteration 30/30: 0.0433 s
+
+Results for mv_top_categories:
+  min   = 0.0431 s
+  mean  = 0.0447 s
+  max   = 0.0513 s
+----------------------------------------
+
+=== Query raw_top_brands ===
+  iteration  1/30: 0.1523 s
+  iteration  2/30: 0.1510 s
+  iteration  3/30: 0.1412 s
+  iteration  4/30: 0.1359 s
+  iteration  5/30: 0.1532 s
+  iteration  6/30: 0.1403 s
+  iteration  7/30: 0.1420 s
+  iteration  8/30: 0.1499 s
+  iteration  9/30: 0.1487 s
+  iteration 10/30: 0.1389 s
+  iteration 11/30: 0.1465 s
+  iteration 12/30: 0.1530 s
+  iteration 13/30: 0.1523 s
+  iteration 14/30: 0.1594 s
+  iteration 15/30: 0.1391 s
+  iteration 16/30: 0.1495 s
+  iteration 17/30: 0.1489 s
+  iteration 18/30: 0.1528 s
+  iteration 19/30: 0.1480 s
+  iteration 20/30: 0.1521 s
+  iteration 21/30: 0.1351 s
+  iteration 22/30: 0.1448 s
+  iteration 23/30: 0.1390 s
+  iteration 24/30: 0.1421 s
+  iteration 25/30: 0.1517 s
+  iteration 26/30: 0.1494 s
+  iteration 27/30: 0.1519 s
+  iteration 28/30: 0.1438 s
+  iteration 29/30: 0.1464 s
+  iteration 30/30: 0.1594 s
+
+Results for raw_top_brands:
+  min   = 0.1351 s
+  mean  = 0.1473 s
+  max   = 0.1594 s
+----------------------------------------
+
+=== Query mv_top_brands ===
+  iteration  1/30: 0.0799 s
+  iteration  2/30: 0.0768 s
+  iteration  3/30: 0.0782 s
+  iteration  4/30: 0.0705 s
+  iteration  5/30: 0.0749 s
+  iteration  6/30: 0.0692 s
+  iteration  7/30: 0.0655 s
+  iteration  8/30: 0.0651 s
+  iteration  9/30: 0.0697 s
+  iteration 10/30: 0.0759 s
+  iteration 11/30: 0.0708 s
+  iteration 12/30: 0.0790 s
+  iteration 13/30: 0.0899 s
+  iteration 14/30: 0.0648 s
+  iteration 15/30: 0.0829 s
+  iteration 16/30: 0.0814 s
+  iteration 17/30: 0.0703 s
+  iteration 18/30: 0.0826 s
+  iteration 19/30: 0.0707 s
+  iteration 20/30: 0.0822 s
+  iteration 21/30: 0.0783 s
+  iteration 22/30: 0.0791 s
+  iteration 23/30: 0.0860 s
+  iteration 24/30: 0.0795 s
+  iteration 25/30: 0.0853 s
+  iteration 26/30: 0.0706 s
+  iteration 27/30: 0.0787 s
+  iteration 28/30: 0.0752 s
+  iteration 29/30: 0.0799 s
+  iteration 30/30: 0.0715 s
+
+Results for mv_top_brands:
+  min   = 0.0648 s
+  mean  = 0.0761 s
+  max   = 0.0899 s
+----------------------------------------
+
+=== Query raw_avg_offers_per_brand ===
+  iteration  1/30: 0.2892 s
+  iteration  2/30: 0.2923 s
+  iteration  3/30: 0.2965 s
+  iteration  4/30: 0.2849 s
+  iteration  5/30: 0.2933 s
+  iteration  6/30: 0.3010 s
+  iteration  7/30: 0.2915 s
+  iteration  8/30: 0.2919 s
+  iteration  9/30: 0.2976 s
+  iteration 10/30: 0.2894 s
+  iteration 11/30: 0.2817 s
+  iteration 12/30: 0.2813 s
+  iteration 13/30: 0.2896 s
+  iteration 14/30: 0.2800 s
+  iteration 15/30: 0.2891 s
+  iteration 16/30: 0.2778 s
+  iteration 17/30: 0.2896 s
+  iteration 18/30: 0.2758 s
+  iteration 19/30: 0.2802 s
+  iteration 20/30: 0.2801 s
+  iteration 21/30: 0.2769 s
+  iteration 22/30: 0.2800 s
+  iteration 23/30: 0.2869 s
+  iteration 24/30: 0.2815 s
+  iteration 25/30: 0.2886 s
+  iteration 26/30: 0.3046 s
+  iteration 27/30: 0.3005 s
+  iteration 28/30: 0.2739 s
+  iteration 29/30: 0.2869 s
+  iteration 30/30: 0.2901 s
+
+Results for raw_avg_offers_per_brand:
+  min   = 0.2739 s
+  mean  = 0.2874 s
+  max   = 0.3046 s
+----------------------------------------
+
+=== Query mv_avg_offers_per_brand ===
+  iteration  1/30: 0.0602 s
+  iteration  2/30: 0.0544 s
+  iteration  3/30: 0.0588 s
+  iteration  4/30: 0.0618 s
+  iteration  5/30: 0.0591 s
+  iteration  6/30: 0.0556 s
+  iteration  7/30: 0.0579 s
+  iteration  8/30: 0.0694 s
+  iteration  9/30: 0.0603 s
+  iteration 10/30: 0.0557 s
+  iteration 11/30: 0.0515 s
+  iteration 12/30: 0.0625 s
+  iteration 13/30: 0.0672 s
+  iteration 14/30: 0.0526 s
+  iteration 15/30: 0.0529 s
+  iteration 16/30: 0.0548 s
+  iteration 17/30: 0.0627 s
+  iteration 18/30: 0.0629 s
+  iteration 19/30: 0.0689 s
+  iteration 20/30: 0.0703 s
+  iteration 21/30: 0.0746 s
+  iteration 22/30: 0.0596 s
+  iteration 23/30: 0.0679 s
+  iteration 24/30: 0.0554 s
+  iteration 25/30: 0.0562 s
+  iteration 26/30: 0.0756 s
+  iteration 27/30: 0.0624 s
+  iteration 28/30: 0.0626 s
+  iteration 29/30: 0.0681 s
+  iteration 30/30: 0.0555 s
+
+Results for mv_avg_offers_per_brand:
+  min   = 0.0515 s
+  mean  = 0.0612 s
+  max   = 0.0756 s
+----------------------------------------
+
+=== Query raw_offers_without_events ===
+  iteration  1/30: 0.0552 s
+  iteration  2/30: 0.0521 s
+  iteration  3/30: 0.0532 s
+  iteration  4/30: 0.0525 s
+  iteration  5/30: 0.0541 s
+  iteration  6/30: 0.0507 s
+  iteration  7/30: 0.0518 s
+  iteration  8/30: 0.0516 s
+  iteration  9/30: 0.0546 s
+  iteration 10/30: 0.0482 s
+  iteration 11/30: 0.0510 s
+  iteration 12/30: 0.0538 s
+  iteration 13/30: 0.0524 s
+  iteration 14/30: 0.0585 s
+  iteration 15/30: 0.0666 s
+  iteration 16/30: 0.0524 s
+  iteration 17/30: 0.0627 s
+  iteration 18/30: 0.0491 s
+  iteration 19/30: 0.0508 s
+  iteration 20/30: 0.0475 s
+  iteration 21/30: 0.0486 s
+  iteration 22/30: 0.0563 s
+  iteration 23/30: 0.0557 s
+  iteration 24/30: 0.0542 s
+  iteration 25/30: 0.0553 s
+  iteration 26/30: 0.0547 s
+  iteration 27/30: 0.0613 s
+  iteration 28/30: 0.0598 s
+  iteration 29/30: 0.0520 s
+  iteration 30/30: 0.0501 s
+
+Results for raw_offers_without_events:
+  min   = 0.0475 s
+  mean  = 0.0539 s
+  max   = 0.0666 s
+----------------------------------------
+
+=== Query mv_offers_without_events ===
+  iteration  1/30: 0.0539 s
+  iteration  2/30: 0.0615 s
+  iteration  3/30: 0.0534 s
+  iteration  4/30: 0.0550 s
+  iteration  5/30: 0.0608 s
+  iteration  6/30: 0.0629 s
+  iteration  7/30: 0.0583 s
+  iteration  8/30: 0.0548 s
+  iteration  9/30: 0.0678 s
+  iteration 10/30: 0.0512 s
+  iteration 11/30: 0.0582 s
+  iteration 12/30: 0.0595 s
+  iteration 13/30: 0.0535 s
+  iteration 14/30: 0.0495 s
+  iteration 15/30: 0.0536 s
+  iteration 16/30: 0.0520 s
+  iteration 17/30: 0.0590 s
+  iteration 18/30: 0.0608 s
+  iteration 19/30: 0.0533 s
+  iteration 20/30: 0.0543 s
+  iteration 21/30: 0.0528 s
+  iteration 22/30: 0.0556 s
+  iteration 23/30: 0.0660 s
+  iteration 24/30: 0.0582 s
+  iteration 25/30: 0.0479 s
+  iteration 26/30: 0.0506 s
+  iteration 27/30: 0.0512 s
+  iteration 28/30: 0.0529 s
+  iteration 29/30: 0.0550 s
+  iteration 30/30: 0.0099 s
+
+Results for mv_offers_without_events:
+  min   = 0.0099 s
+  mean  = 0.0544 s
+  max   = 0.0678 s
+----------------------------------------
