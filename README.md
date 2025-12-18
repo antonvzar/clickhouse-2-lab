@@ -376,6 +376,23 @@ SELECT * FROM ecom_offers LIMIT 5;
 SELECT * FROM catalog_by_category_mv LIMIT 5;
 SELECT * FROM catalog_by_brand_mv LIMIT 5;
 ```
+### 6.2. RawEvent.parquet
+
+```sql
+USE ecom;
+
+INSERT INTO raw_events
+SELECT
+    Hour,
+    DeviceTypeName,
+    ApplicationName,
+    OSName,
+    ProvinceName,
+    ContentUnitID
+FROM file('RawEvent.parquet', 'Parquet');
+```
+
+### friendly reminder - надо копировать и вставлять в консоль кликхауса целиком, он поймет и простит
 
 ## 7. Аналитические запросы (для отчёта и сравнения raw vs MV)
 
