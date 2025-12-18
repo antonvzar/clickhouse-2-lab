@@ -23,8 +23,8 @@ client = Client(
     host="localhost",
     port=9000,
     database="ecom",
-    user="benchmark",   # <== новый пользователь
-    password=""         # без пароля
+    user="benchmark",
+    password=""
 )
 
 
